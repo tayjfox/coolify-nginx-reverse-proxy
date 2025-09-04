@@ -21,7 +21,7 @@ A lightweight, flexible NGINX reverse proxy designed for seamless deployment wit
 ### Deploy on Coolify
 
 1. **Create a resource** under your project in Coolify
-2. **Docker Image**: `ghcr.io/andreitere/coolify-nginx-reverse-proxy`  
+2. **Docker Image**: `ghcr.io/andreitere/coolify-nginx-reverse-proxy`
    **Tag**: `1.0.1` or `latest`
 3. **Set Env Var**: `PROXY_HOST` (e.g. `http://192.168.1.21:8123`)
 4. **Set Domain**: The domain you want to proxy (e.g. `https://test001.mydomain.com`)
@@ -48,6 +48,7 @@ docker run \
   - `basic`
   - `authentik`
   - `immich`
+  - `portainer`
 - **Domain**: Set in Coolify to match your public-facing domain
 
 ### Example: Custom Config
